@@ -1,0 +1,295 @@
+html{
+	margin : 0 auto;
+	max-width: 1280px;
+	display: block;
+}
+
+body {
+	margin: 0;
+	min-height : 975px;
+	max-width : 1280px;
+}
+
+.clear{
+	clear : both;
+	margin : 0;
+}
+
+.clear:after{
+	content : "";
+	display : block;
+	clear : both;
+}
+
+.container {
+	max-width: 1280px;
+	max-height : 2495px;
+	position : relative;
+	margin : 0;
+}
+
+header {
+	width: 100%;
+	height: 107px;
+	background: white;
+}
+
+.title_area {
+	display: inline-block;
+	float: left;
+	margin : 1% 0 0 2%;
+	width : 18%;
+}
+
+.nav_top {
+  	display: inline-block;
+  	width : 77%;
+}
+
+.nav_top li {
+  list-style: none;
+	float: right;
+	margin : 5% 0 0 6%;
+}
+
+.nav_top a {
+	display: block;
+	color: black;
+	font-family: FootLight MT Light;
+  font-size: 24px;
+	text-decoration: none;
+}
+
+.nav_top a:hover {
+  	color : pink;
+  	text-decoration: none;
+}
+
+.vertical_line {
+	margin : 3% 0 0 5%;
+  height: 60px;
+	width: 1px;
+	display: inline-block;
+	float: right;
+	background: black;
+}
+
+.btn_log {
+	margin : 1% 0 0 5%;
+	display: inline-block;
+	float: right;
+}
+
+#cats_main {
+	background: #cccccc;
+	height: 767px;
+}
+
+.cats_main_left {
+	width: 26%;
+	height: 767px;
+	display: inline-block;
+	float: left;
+}
+
+.cats_main_right {
+	width: 74%;
+	height: 767px;
+	display: inline-block;
+	float: right;
+}
+
+.cats_lineone {
+	width: 100%;
+  height: 366px;
+}
+
+.cats_linetwo {
+	width: 100%;
+  height: 366px;
+}
+
+.cats_cat1 {
+	display: inline-block;
+	float: left;
+}
+
+.cats_cat2 {
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 4%;
+}
+
+.cats_cat3 {
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 4%;
+}
+
+.cats_cat4 {
+	display: inline-block;
+	float: left;
+}
+
+.cats_cat5 {
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 4%;
+}
+
+.cats_cat6 {
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 4%;
+}
+
+.cats_rectangle {
+	margin-top: 50px;
+	background-color: white;
+  width: 273px;
+  height: 310px;
+}
+
+.cats_cat1_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat1_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat1_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+.cats_cat2_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat2_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat2_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+.cats_cat3_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat3_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat3_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+.cats_cat4_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat4_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat4_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+.cats_cat5_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat5_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat5_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+.cats_cat6_img {
+	display: inline-block;
+	margin : 10% 0 0 10%;
+}
+
+.cats_cat6_name {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: left;
+	margin : 0 0 0 10%;
+}
+
+.cats_cat6_age {
+	font-family: FootLight MT Light;
+	display: inline-block;
+	float: right;
+	margin : 0 10% 0 0;
+}
+
+footer {
+	width: 100%;
+	height : 99px;
+}
+
+.footer_p p {
+	display: inline-block;
+	font-family: FootLight MT Light;
+  font-size: 16px;
+  line-height : 0px;
+  padding : 2% 0 1% 8%;
+	margin : 2% 0 0 0;
+}
+
+.footer_btn {
+  	display: inline-block;
+  	float : right;
+  	padding : 3% 6% 1% 0;
+  	width : 18%;
+}
+
+.footer_icon{
+	margin : 0 0 0 10%;
+	width : 16%;
+}
+
+.footer_icon:hover{
+	opacity : 0.7;
+}
