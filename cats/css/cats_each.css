@@ -150,7 +150,7 @@ header {
 .cats_each_cat_introduce {
 	display: inline-block;
 	float: left;
-	width: 445px;
+	width: 35%;
 	margin :  2% 0 0 10%;
 }
 
