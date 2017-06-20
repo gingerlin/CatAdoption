@@ -92,6 +92,50 @@ header {
 	float: left;
 }
 
+.cats_adoption1 {
+	margin: 15% 0 0 10%;
+	background-color: white;
+  width: 70%;
+  height: 48px;
+}
+
+.cats_adoption2 {
+	margin: 0 0 0 10%;
+	background-color: white;
+  width: 70%;
+  height: 48px;
+}
+
+.cats_adoption1 a {
+	text-decoration:none;
+}
+
+.cats_adoption2 a {
+	text-decoration:none;
+}
+
+.cats_adoption1 p {
+	display: inline-block;
+	font-family: FootLight MT Light;
+	color: black;
+	margin: 7% 0 0 12%;
+}
+
+.cats_adoption2 p {
+	display: inline-block;
+	font-family: FootLight MT Light;
+	color: black;
+	margin: 7% 0 0 12%;
+}
+
+.horizontal_line {
+	margin :  0 0 0 1%;
+  height: 1px;
+	width: 0px;
+	display: block;
+	background: black;
+}
+
 .cats_main_right {
 	width: 74%;
 	height: 767px;
