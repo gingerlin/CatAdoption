@@ -1,0 +1,14 @@
+#login_main{
+	min-height : 500px;
+	background-image: url("../img/register_background.jpg");
+	background-repeat: no-repeat;
+	background-size : 100%;
+}
+.login_transparent{
+	
+	background-color : blue;
+	opacity : 50%;
+}
+@media screen and (max-width: 1920px){
+	
+}
