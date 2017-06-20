@@ -1,13 +1,12 @@
 html{
 	margin : 0 auto;
-	max-width: 1280px;
+	max-width: 1920px;
 	display: block;
 }
 
 body {
 	margin: 0;
-	min-height : 700px;
-	max-width : 1280px;
+	/*min-height : 700px; 975*/
 }
 
 .clear{
@@ -22,125 +21,177 @@ body {
 }
 
 .container {
-	max-width: 1280px;
-	max-height : 1653px;
+	max-height : 2495px;
 	position : relative;
 	margin : 0;
 }
 
 header {
 	width: 100%;
-	height: 135px;
-	background: black;
+	height: 107px;
+	background: white;
 }
 
 .title_area {
 	display: inline-block;
 	float: left;
-	margin : 2% 0 0 5%;
-	width : 20%;
+	margin : 1% 0 0 2%;
+	width : 18%;
 }
 
 .nav_top {
   	display: inline-block;
-  	width : 70%;
+  	width : 77%;
 }
 
 .nav_top li {
-  	list-style: none;
+  list-style: none;
 	float: right;
-	margin : 11% 0 0 8%;
+	margin : 5% 0 0 6%;
 }
 
 .nav_top a {
 	display: block;
-	color: white;
+	color: black;
 	font-family: FootLight MT Light;
-  	font-size: 24px;
+  font-size: 24px;
 	text-decoration: none;
 }
 
 .nav_top a:hover {
-  	color : yellow;
+  	color : pink;
   	text-decoration: none;
 }
 
-#main {
-  	background: white;
-    width : 100%;
+.vertical_line {
+	margin : 3% 0 0 5%;
+  height: 60px;
+	width: 1px;
+	display: inline-block;
+	float: right;
+	background: black;
 }
 
-.characters {
-  padding : 3% 5% 0 5%;
-  width : 90%;
-  height: 600px;
+.btn_log {
+	margin : 1% 0 0 5%;
+	display: inline-block;
+	float: right;
 }
 
-.characters_title{
-  margin-left: 400px;
-  font-size: 70px;
-  font-weight: bold;
+#cats_each_main {
+	background: #cccccc;
+	height: 767px;
 }
 
-.characters_img {
-  float: left;
+.cats_adoption1 {
+	margin: 15% 0 0 10%;
+	background-color: white;
+  width: 70%;
+  height: 48px;
 }
 
-.characters_statement {
-  float: left;
-  margin-left: 40px;
+.cats_adoption2 {
+	margin: 0 0 0 10%;
+	background-color: white;
+  width: 70%;
+  height: 48px;
 }
 
-.characters_statement h1{
-  font-size: 45px;
+.cats_adoption1 a {
+	text-decoration:none;
 }
 
-.characters_statement p{
-  font-size: 20px;
-  width: 350px;
+.cats_adoption2 a {
+	text-decoration:none;
 }
 
-.characters_each {
-  display: inline-block;
+.cats_adoption1 p {
+	display: inline-block;
+	font-family: FootLight MT Light;
+	color: black;
+	margin: 7% 0 0 12%;
 }
 
-.characters_each img {
-  margin-left: 50px;
-  margin-top: 50px;
-  padding: 20px 20px 20px 20px;
-  border-radius: 100px;
+.cats_adoption2 p {
+	display: inline-block;
+	font-family: FootLight MT Light;
+	color: black;
+	margin: 7% 0 0 12%;
 }
 
-.round_btn{
-	cursor : pointer;
-	display : inline-block;
+.horizontal_line {
+	margin :  0 0 0 1%;
+  height: 1px;
+	width: 0px;
+	display: block;
+	background: black;
 }
 
-.characters_each img:hover{
-	opacity : 0.7;
-	width : 60%;
+.cats_each_main_left {
+	width: 26%;
+	height: 767px;
+	display: inline-block;
+	float: left;
+}
+
+.cats_each_main_right {
+	width: 74%;
+	height: 767px;
+	display: inline-block;
+	float: right;
+}
+
+.cats_each_cat_img {
+	display: inline-block;
+	float: left;
+	margin :  5% 0 0 5%;
+}
+
+.cats_each_cat_introduce {
+	display: inline-block;
+	float: left;
+	width: 445px;
+	margin :  2% 0 0 10%;
+}
+
+.cats_each_cat_introduce h1 {
+	font-size: 50px;
+	font-family: FootLight MT Light;
+}
+
+.cats_each_cat_introduce p {
+	font-size: 30px;
+	font-family: FootLight MT Light;
+}
+
+.cats_each_cat_introduce button {
+	width: 180px;
+	height: 60px;
+	background: pink;
+	font-family: FootLight MT Light;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
 }
 
 footer {
-  	width: 100%;
-  	height : 80px;
-	margin: 3% 0 0 0;
-	background-color: #E8E8E8;
+	width: 100%;
+	height : 99px;
 }
 
 .footer_p p {
 	display: inline-block;
-	color: #838db0;
 	font-family: FootLight MT Light;
-  	font-size: 16px;
-  	line-height : 0px;
-  	padding : 2% 0 1% 8%;
+  font-size: 16px;
+  line-height : 0px;
+  padding : 2% 0 1% 8%;
+	margin : 2% 0 0 0;
 }
 
 .footer_btn {
   	display: inline-block;
   	float : right;
-  	padding : 2% 6% 1% 0;
+  	padding : 3% 6% 1% 0;
   	width : 18%;
 }
 
