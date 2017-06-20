@@ -38,14 +38,14 @@
 	float:left; 
 	text-align:center; 
 	padding:5%;
-} 
+box-sizing:border-box;} 
 .I_color{
 	background: #DDDDDD;
 }
 .imgpos{
 	padding:5%; 
 	width:100%;
-} 
+box-sizing:border-box;} 
 .I_context{
 	width:90%; 
 	padding:5%;
