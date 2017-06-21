@@ -1,0 +1,106 @@
+.CU_main{
+	/*background: #cccccc;*/
+	background-image:url("../img/home5.jpg");
+	background-size:100% auto;
+	position:relative;
+	background-repeat:no-repeat;
+	/*opacity:0.5;*/
+	height:757px;
+	/*filter:alpha(opacity=40);*/
+}
+
+.CU_trans {
+    height:757px;;
+    background-color: #ffffff; 
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.CU_title{
+	width:100%;
+	height:14%;/*107px;*/
+	background:transparent;
+	/*font-size:44px;*/
+}
+
+.CU_titlep{
+	font-size:44px;
+	margin:0;
+	padding: 3%;
+}
+
+.CU_context{
+	width:100%;
+	height:86%;/*500px;*/
+	/*font-size:44px;*/
+}
+
+.CU_contextu{
+	font-size:24px;
+	margin:0;
+	padding: 3%;
+}
+
+.CU_contextp{
+	font-size:20px;
+	margin:0;
+	padding: 3%;
+}
+
+.CU_link{
+	font-size:20px;
+	text-decoration:none;
+	color:black;
+	margin:0;
+	padding: 3%;
+}
+
+.CU_link:hover{
+	color:brown;
+}
+
+@media screen and (max-width:768px){
+	.CU_main{
+	background:#cccccc;
+	height:500px;
+	}
+.CU_trans{
+	height:500px;
+}
+.CU_titlep{
+	font-size:35px;
+}
+.CU_contextu{
+	font-size:25px;
+}
+.CU_contextp{
+	font-size:15px;
+}
+.CU_link{
+	font-size:15px;
+}
+}
+
+@media screen and (max-width:320px){
+	.CU_main{
+	background:#cccccc;
+	height:250px;
+	}
+	.CU_trans{
+		background:transparent;
+		height:250px;
+	}
+	.CU_titlep{
+		font-size:15px;
+	}
+.CU_contextu{
+	font-size:10px;
+}
+	.CU_contextp{
+		font-size:5px;
+	}
+
+.CU_link{
+	font-size:5px;
+}
+}

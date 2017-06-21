@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Register</title>
+    <title>Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="css/cats.css" type="text/css">
@@ -11,6 +11,11 @@
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
   	<script src="js/jquery.js"></script>
   	<script src="js/script.js"></script>
+  	<script>
+  	window.onload = function () {
+  		document.getElementById('email').innerHTML = data.name;
+  	}
+  	</script>
   </head>
   <body>
     <div class="container">
@@ -34,24 +39,18 @@
 	  	</header>
       <div class="login_main" id="SignIn">
       	<div class="login_transparent">
-      		<h1 class="login_title">Register</h1>
+      		<h1 class="login_title">Profile</h1>
       		<form action="#">
       		<div class="login_info"><p class="login_info_title">Name</p></div>
-      		<div class="login_textbox"><input class="login_input" type="text" id="userName"></div>
-      		<div class="login_info"><p class="login_info_title">Email</p></div>
-      		<div class="login_textbox"><input class="login_input" type="email" id="email"></div>
-      		<div class="login_info"><p class="login_info_title">Password</p></div>
-      		<div class="login_textbox"><input class="login_input" type="password" id="password"></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-ame"></div>
       		<div class="login_info"><p class="login_info_title">Address</p></div>
-      		<div class="login_textbox"><input class="login_input" type="text" id="address"></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-address"></div>
       		<div class="login_info"><p class="login_info_title">Phone</p></div>
-      		<div class="login_textbox"><input class="login_input" type="text" id="phone"></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-phone"></div>
       		<div class="login_info"><p class="login_info_title">Gender</p></div>
       		<div class="login_textbox"><select class="login_input1" id="gender"><option value="Male">Male</option><option value="Female">Female</option></select></div>
       		</form>
-      		<button class="login_button" type="button" id="btnSignUp">Register</button>
-      		<button class="login_button" type="button"><a href="login2.html">Login</a></button>
-      		<div class="mdl-card__supporting-text login_text" id="sign-info">Welcome!</div>
+      		<button class="login_submit" type="button" id="btnSignUp">Submit</button>
       	</div>
       </div>
 	<footer>

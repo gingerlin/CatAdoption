@@ -7,32 +7,43 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 		<link rel="stylesheet" href="css/cats.css" type="text/css">
+    	<link rel="stylesheet" href="css/login.css" type="text/css">
+    	<link rel="stylesheet" href="css/about_us.css" type="text/css">
+    	<link rel="stylesheet" href="css/cats_each.css" type="text/css">
+    	<link rel="stylesheet" href="css/contact_us.css" type="text/css">
+    	<link rel="stylesheet" href="css/q_and_a.css" type="text/css">
     	<link rel="stylesheet" href="css/style.css" type="text/css">
+    	<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/QA.js" type="text/javascript"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="js/carousel.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/script1.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="I_container">
 			<header>
 				<div class="title_area"><a href="index.html"><img src="img\logo.png" alt="logo"></a></div>
-        <nav class="nav_top">
-        	<ul class="clear">
-            <div class="btn_log">
-              <a href="login.html"><img src="img/register.png" alt="register"></a>
-              <a href="login.html"><img src="img/login.png" alt="login"></a>
-            </div>
+        			<nav class="nav_top">
+        				<ul class="clear">
+            			<div class="btn_log">
+              		<a href="#"><img class="btn_sign_up" src="img/register.png" alt="register"></a>
+              		<a href="#"><img class="btn_sign_in" src="img/login.png" alt="login"></a>
+            		</div>
             <div class="vertical_line">
             </div>
-        		<li><a href="contact_us.html">Contact Us</a></li>
-      	  	<li><a href="adoption_house.html">Adoption House</a></li>
-        		<li><a href="cats.html">Cats</a></li>
-        		<li><a href="about_us.html">About Us</a></li>
-            <li><a href="index.html">Home</a></li>
+        		<li><a href="#"><span class="nav nav_CU">Contact Us</span></a></li>
+      	  	<li><a href="#"><span class="nav nav_AH">Adoption House</span></a></li>
+        		<li><a href="#"><span class="nav nav_cats">Cats</span></a></li>
+        		<li><a href="#"><span class="nav nav_AB">About Us</span></a></li>
+            <li><a href="#"><span class="nav nav_home">Home</span></a></li>
         	</ul>
         </nav>
-			</header>
-			<div class="I_main">
+		</header>
+		</div>
+			<!--home-->
+			<div id="home" class="I_main web">
 				<div id="myCarousel" class="banner_img carousel slide">
 
       					<div class="carousel-inner" role="listbox">
@@ -89,7 +100,7 @@
 						<div class="I_contextbottom">
 						</div>
 						<div class="I_contextbottom">
-							<a href="#"><img class="I_morebutton" src="img/readmore.png"></a>
+							<a href="#"><span class="nav_AB"><img class="I_morebutton" src="img/readmore.png"></span></a>
 						</div>
 					</div>
 				</div>
@@ -107,7 +118,7 @@
 						<div class="I_contextbottom">
 						</div>
 						<div class="I_contextbottom">
-							<a href="#"><img class="I_morebutton" src="img/readmore.png"></a>
+							<a href="#"><span class="nav_cats"><img class="I_morebutton" src="img/readmore.png"></span></a>
 						</div>
 					</div>
 				</div>
@@ -125,7 +136,7 @@
 						<div class="I_contextbottom">
 						</div>
 						<div class="I_contextbottom">
-							<a href="#"><img class="I_morebutton" src="img/readmore.png"></a>
+							<a href="#"><span class="nav_AH"><img class="I_morebutton" src="img/readmore.png"></span></a>
 						</div>
 					</div>
 				</div>
@@ -143,17 +154,239 @@
 						<div class="I_contextbottom">
 						</div>
 						<div class="I_contextbottom">
-							<a href="#"><img class="I_morebutton" src="img/readmore.png"></a>
+							<a href="#"><span class="nav_CU"><img class="I_morebutton" src="img/readmore.png"></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<footer>
+		<!--about us-->
+		<div id="about_us" class="AU_main web">
+		<div class="AU_trans">
+			<div class="AU_title">
+				<p class="AU_titlep">About Us</p>
+			</div>
+			<div class="AU_context">
+				<u class="AU_contextp">OUR MISSION STATEMENT</u>
+				<p class="AU_contextp">Stray Animal Adoption Program (SAAP) is an all- volunteer, non-profit organization that exists to rescue, protect, and provide care for at risk pets. We promote lifelong adoptions while focusing on spay/neuter and the education of animal welfare.</p>
+				<u class="AU_contextp">WHO WE ARE</u>
+				<p class="AU_contextp">We are an all-volunteer 501(c)3 non profit organization. We are dedicated to the rescue of animals that are in need of a forever home. Our animals are fostered in homes where we provide love, food, medical care and socialization until adoption into a new loving home. We educate on the importance of spaying and neutering of all pets.
+We ensure all animals have been spayed or neutered prior to adoption. They are microchipped, up to date on shots and on heartworm and anti-flea medications (as age appropriate). They are ready and waiting to start their new life with their fur-ever family. Could that be you?
+We need your help to continue our mission. We rely solely on donations and fundraisers. All donations are tax-deductible and 100% of your donation will go towards the rescue, care, and medical needs of the animals.</p>
+			</div>
+		</div>
+		</div>
+        <!--cats-->
+      <div id="cats_main" class="web">
+        <div class="cats_main_left">
+          <div class="cats_adoption1">
+            <a href="#"><p>Taipei Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a href="#"><p>Taoyuan Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a href="#"><p>Taichung Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a href="#"><p>Tainan Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a href="#"><p>Kaohsiung Adoption House</p></a>
+          </div>
+        </div>
+
+        <div class="cats_main_right">
+          <div class="cats_lineone">
+            <div class="cats_cat1">
+              <div class="cats_rectangle">
+                <div class="cats_cat1_img"><a href="cats_each.html" target="blank"><img src="img/cat1.jpg" alt="cat1"></a></div>
+                <div class="cats_cat1_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat1_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+            <div class="cats_cat2">
+              <div class="cats_rectangle">
+                <div class="cats_cat2_img"><a href="cats_each.html" target="blank"><img src="img/cat2.jpg" alt="cat2"></a></div>
+                <div class="cats_cat2_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat2_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+            <div class="cats_cat3">
+              <div class="cats_rectangle">
+                <div class="cats_cat3_img"><a href="cats_each.html" target="blank"><img src="img/cat3.jpg" alt="cat3"></a></div>
+                <div class="cats_cat3_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat3_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cats_linetwo">
+            <div class="cats_cat4">
+              <div class="cats_rectangle">
+                <div class="cats_cat4_img"><a href="cats_each.html" target="blank"><img src="img/cat4.jpg" alt="cat4"></a></div>
+                <div class="cats_cat4_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat4_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+            <div class="cats_cat5">
+              <div class="cats_rectangle">
+                <div class="cats_cat5_img"><a href="cats_each.html" target="blank"><img src="img/cat5.jpg" alt="cat5"></a></div>
+                <div class="cats_cat5_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat5_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+            <div class="cats_cat6">
+              <div class="cats_rectangle">
+                <div class="cats_cat6_img"><a href="cats_each.html" target="blank"><img src="img/cat6.jpg" alt="cat6"></a></div>
+                <div class="cats_cat6_name">
+                  <h2>Benny</h2>
+                </div>
+                <div class="cats_cat6_age">
+                  <h2>3months</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--contact us-->
+		<div class="CU_main web" id="contact_us">
+			<div class="CU_trans">
+				<div class="CU_title">
+					<p class="CU_titlep">Contact Us</p>
+				</div>
+				<div class="CU_context">
+					<u class="CU_contextu">STRAY RESCUE OF ST. LOUIS</u>
+					<p class="CU_contextp">
+2320 Pine Street
+St. Louis, MO 63103
+314.771.6121
+Open Daily 10AM-7PM</p>
+
+
+					<u class="CU_contextu">Link<br></u><p></p>
+<a href="#" class="CU_link">Questions about donations/tax letters<br></a><p></p>
+<a href="#" class="CU_link">Questions about adoptions & fostering<br></a><p></p>
+<a href="#" class="CU_link">For General Inquiries</a>
+				</div>
+			</div>
+		</div>
+		<!--QA-->
+		<div id="QA" class="q_main web"><div class="q_trans"><div class="page">			<p class="q_titlep">Q&A</p>
+		</div>
+			<div class="questionOne">
+				<p>1. What is the adoption process?</p>
+			</div>
+			<div class="answerOne">
+				<p>After you complete an adoption application it is reviewed, references are contacted and if you have current pets, your current vet is contacted. </p>
+			</div>
+			
+			<div class="questionTwo">
+				<p>2. If a dog is Heartworm positive and I want to adopt it, how does that work?</p>
+			</div>
+			<div class="answerTwo">
+				<p>You get to have the dog with you in your home but Stray Paws is responsible for the HW treatments until a negative HW test is done and the dog is altered.  Then if you still want to adopt the dog is yours after the adoption fee is paid. </p>
+			</div>
+			
+			<div class="questionThree">
+				<p>3. What if we find that the adoption won’t work out due to one thing or another?</p>
+			</div>
+			<div class="answerThree">
+				<p>e have a 2 week “trial adoption” in which we are still responsible for the dog and you get to see if everyone is going to get along and bond.   </p>
+			</div>
+			
+			<div class="questionFour">
+				<p>4. Where do the dogs at the shelter come from ? </p>
+			</div>
+			<div class="answerFour">
+				<p>The dogs at our shelter were either abandoned by their owners or born as strays. Some Sochi residents have been bringing community dogs to our shelter when they learn that town officials will be poisoning dogs in their area</p>
+			</div>
+		</div>			</div>
+</div></div>
+        <!--register-->
+        <div class="login_main web" id="SignUp">
+      	<div class="login_transparent">
+      		<h1 class="login_title">Register</h1>
+      		<form action="#">
+      		<div class="login_info"><p class="login_info_title">Name</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="userName"></div>
+      		<div class="login_info"><p class="login_info_title">Email*</p></div>
+      		<div class="login_textbox"><input class="login_input" type="email" id="email"></div>
+      		<div class="login_info"><p class="login_info_title">Password*</p></div>
+      		<div class="login_textbox"><input class="login_input" type="password" id="password"></div>
+      		<div class="login_info"><p class="login_info_title">Address</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="address"></div>
+      		<div class="login_info"><p class="login_info_title">Phone</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="phone"></div>
+      		</form>
+      		<button class="login_button" type="button" id="btnSignUp">Register</button>
+      		<button class="login_button" type="button"><span class="btn_sign_in">Login</span></a></button>
+      		<div class="mdl-card__supporting-text login_text" id="sign-info">Welcome!</div>
+      	</div>
+      	</div>
+      	<!--login-->
+      	<div class="login_main web" id="SignIn">
+      	<div class="login_transparent">
+      		<h1 class="login_title">Login</h1>
+      		<form action="status.html" method="GET">
+      		<div class="login_info"><p class="login_info_title">Email</p></div>
+      		<div class="login_textbox"><input class="login_input" type="email" id="email"></div>
+      		<div class="login_info"><p class="login_info_title">Password</p></div>
+      		<div class="login_textbox"><input class="login_input" type="password" id="password"></div>
+      		</form>
+      		<button class="login_button" type="button"><a href="#"><span class="btn_sign_up">Register</span></a></button>
+      		<button class="login_button" type="button" id="btnSignIn">Login</button>
+      		<div class="mdl-card__supporting-text login_text" id="sign-info">Welcome!</div>
+      	</div>
+      </div>
+      <!--profile-->
+      <div class="login_main web" id="profile">
+      	<div class="login_transparent">
+      		<h1 class="login_title">Profile</h1>
+      		<form action="#">
+      		<div class="login_info"><p class="login_info_title">Name</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-ame"></div>
+      		<div class="login_info"><p class="login_info_title">Address</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-address"></div>
+      		<div class="login_info"><p class="login_info_title">Phone</p></div>
+      		<div class="login_textbox"><input class="login_input" type="text" id="profile-phone"></div>
+      		</form>
+      		<button class="login_submit" type="button" id="btnSignUp">Submit</button>
+      	</div>
+      </div>
+    <footer>
         <div class="footer_p">
           <p>&copy; Copyrights 2017 Cat Adoption CSIE NTUT / Design by CSIE</p>
           <div class="footer_btn">
-          	<a href="QA.html"><img class="footer_icon" src="img/Q_A.png" alt="footer_QandA"></a>
+          	<a href="#"><img class="footer_icon nav_QA" src="img/Q_A.png" alt="footer_QandA"></a>
           	<a href="https://www.google.com/gmail/" target="Email"><img class="footer_icon" src="img/email.png" alt="footer_email"></a>
           	<a href="https://www.youtube.com/" target="YouTube"><img class="footer_icon" src="img/yt.png" alt="footer_youtube"></a>
         	</div>
