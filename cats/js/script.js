@@ -91,6 +91,8 @@ $(document).ready(function(){
     	promise.catch(function(e){
       		console.log(e.message);
       		$signInfo.html(e.message);
+      		$('.web').hide();
+  			$("#profile").show();
     	});
     	promise.then(function(){
       		console.log('SignIn User');
@@ -125,13 +127,10 @@ $(document).ready(function(){
       user_profile(user);
       userProfile(user);
       console.log(user);
+      location.href="status.html";
       if(user.emailVerified){
-      	//$('.login_main').hide();
-      	//$(".status").show();
-      	location.href="status.html?email="+user.email;
       	$('.btn').removeClass("active");
   	  	$('.btnProfile').addClass("active");
-  	  	windows.location.href="status.html";
   	  }
   	  else{
   	  	$signInfo.html("Please verify your email before sign in.");
@@ -212,7 +211,7 @@ $(document).ready(function(){
     }
   });
   
-  /*function user_profile(user){
+  function user_profile(user){
   	var username = user.displayName;
   	var email = user.email;
   	var photoUrl = user.photoURL;
@@ -220,7 +219,7 @@ $(document).ready(function(){
     $profileName.html(username||user.email);
     $profileEmail.html(email);
     $img.attr("src", photoUrl);
-  }*/
+  }
   
   function userProfile(user){
     var dbUserInfo = firebase.database().ref('user/' + user.uid);

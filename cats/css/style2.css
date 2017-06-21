@@ -1,0 +1,114 @@
+header span.menu{
+	display : none;
+	font-size : 25px;
+	padding : 1% 2%;
+	border-radius : 4px;
+	float : right;
+	background-color: black;
+	color : white;
+}
+.side-nav ul{
+	margin : 0;
+	padding : 0 0 0 22%;
+	display : block;
+}
+
+.side-nav li{
+	list-style : none;
+	float : left;
+	margin-left : 8%;
+}
+
+.side-nav a{
+	display : block;
+	font-family : Arial;
+	font-size : 20px;
+	line-height : 100%;
+	color : #898989;
+	text-decoration: none;
+}
+
+.side-nav a:hover{
+	color : #000000;
+}
+
+@media screen and (max-width: 768px) {
+	.container{
+		min-height : 1100px;
+	}
+	.content-title{
+		display : inline-block;
+		font-size : 20px;
+		line-height : 18px;
+	}
+	.hor-line-long{
+		width : 33%;
+	}
+	.hor-line-short{
+		width : 12%;
+	}
+	header span.menu{
+		display : block;
+	}
+	header span.menu:hover{
+		backgroud-color : #836c5d;
+		cursor : pointer;
+	}
+	.side-nav ul{
+		position : absolute;
+		width : 33%;
+		display : none;
+		background-color: #F6F0DE;
+		margin : 6% 0 0 18%;
+		padding : 0;
+	}
+	.side-nav li{
+		float : none;
+		width : 100%;
+		background-color: #F6F0DE;
+		margin : 0;
+		padding : 2% 10% 2% 60%;
+	}
+	.side-nav li:hover{
+		background-color: #ebdeb6;
+	}
+	.side-nav a,.side-nav a:hover{
+		margin : 0;
+		color : #A48875;
+		padding : 5% 5%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+header span.menu{
+	display : block;
+	font-size : 18px;
+	padding : 0 2%;
+	border-radius : 4px;
+	margin : 6% 0 0 0;
+}
+	header span.menu:hover{
+		backgroud-color : #836c5d;
+		cursor : pointer;
+	}
+	.nav{
+		float : right;
+		width : 70%;
+	}
+	.side-nav ul{
+		position : absolute;
+		width : 40%;
+		display : none;
+		margin : 11% 48% 0 0;
+		background-color: #F6F0DE;
+	}
+	.side-nav li{
+		float : none;
+		width : 100%;
+		padding : 2% 10% 2% 50%;
+	}
+	.side-nav a{
+		margin : 0;
+		font-size : 12px;
+	}
+}

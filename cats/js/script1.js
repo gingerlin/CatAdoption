@@ -13,11 +13,11 @@ $(document).ready(function(){
   		$("#about_us").show();
   		$('.nav_AB').addClass("active");
   	});
-  	$('.nav_AH').click(function(){
+  	$('.nav_QA').click(function(){
   		$('.nav').removeClass("active");
   		$('.web').hide();
-  		$("#adoption_house").show();
-  		$('.nav_AH').addClass("active");
+  		$("#QA").show();
+  		$('.nav_QA').addClass("active");
   	});
   	$('.nav_CU').click(function(){
   		$('.nav').removeClass("active");
@@ -31,11 +31,6 @@ $(document).ready(function(){
   		$("#cats_main").show();
   		$('.nav_cats').addClass("active");
   	});
-  	$('.nav_QA').click(function(){
-  		$('.nav').removeClass("active");
-  		$('.web').hide();
-  		$("#QA").show();
-  	});
   	$('.btn_sign_up').click(function(){
   		$('.nav').removeClass("active");
   		$('.web').hide();
@@ -46,20 +41,29 @@ $(document).ready(function(){
   		$('.web').hide();
   		$("#SignIn").show();
   	});
-  	$('.btnEditProfile').click(function(){
-  		$('.btn').removeClass("active");
-  		$('.page').hide();
-  		$("#ProfileUpdate").show();
-  		$("#userName").focus();
-  		$('.btnEditProfile').addClass("active");
+  	$('.btnSignIn').click(function(){
+  		$('.nav').removeClass("active");
+  		$('.web').hide();
+  		$("#profile").show();
   	});
-  	$("#btnSubmit").click(function(){
-  		$('.btn').removeClass("active");
-  		$('.page').hide();
-  		$("#Profile").show();
-  		$('.btnProfile').addClass("active");
-  	});
+  
   });
+  $(document).ready(function() {
+	// when a nav parent is clicked
+	$(".side_nav .menu").click(function() {
+    var $ul = $(this).parent(".side_nav").children("ul");
+		// if section is already active and clicked again
+		if ( $ul.hasClass("active") ) {
+			$ul.removeClass("active");
+			$ul.slideUp();
+		} else {
+		// if section is made active
+			$ul.addClass("active");
+			$ul.slideDown();
+			return false;
+		}
+	}); // end click event handler
+});
   function SignOut(){
     firebase.auth().signOut();
     console.log('LogOut');

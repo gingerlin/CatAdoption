@@ -12,8 +12,10 @@
     	<link rel="stylesheet" href="css/cats_each.css" type="text/css">
     	<link rel="stylesheet" href="css/contact_us.css" type="text/css">
     	<link rel="stylesheet" href="css/q_and_a.css" type="text/css">
+    	<link rel="stylesheet" href="css/style2.css" type="text/css">
     	<link rel="stylesheet" href="css/style.css" type="text/css">
-    	<script src="js/jquery.js" type="text/javascript"></script>
+    	<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+		<script src="js/jquery.js" type="text/javascript"></script>
 		<script src="js/QA.js" type="text/javascript"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,21 +27,23 @@
 		<div class="I_container">
 			<header>
 				<div class="title_area"><a href="index.html"><img src="img\logo.png" alt="logo"></a></div>
-        			<nav class="nav_top">
+				<div class="nav_top">
+        			<nav class="side_nav">
+        				<span class="menu">&#9776</span>
         				<ul class="clear">
-            			<div class="btn_log">
-              		<a href="#"><img class="btn_sign_up" src="img/register.png" alt="register"></a>
-              		<a href="#"><img class="btn_sign_in" src="img/login.png" alt="login"></a>
-            		</div>
-            <div class="vertical_line">
-            </div>
-        		<li><a href="#"><span class="nav nav_CU">Contact Us</span></a></li>
-      	  	<li><a href="#"><span class="nav nav_AH">Adoption House</span></a></li>
-        		<li><a href="#"><span class="nav nav_cats">Cats</span></a></li>
-        		<li><a href="#"><span class="nav nav_AB">About Us</span></a></li>
-            <li><a href="#"><span class="nav nav_home">Home</span></a></li>
-        	</ul>
-        </nav>
+            				<div class="btn_log">
+              				<a href="#"><img class="btn_sign_up" src="img/register.png" alt="register"></a>
+              				<a href="#"><img class="btn_sign_in" src="img/login.png" alt="login"></a>
+            				</div>
+            				<div class="vertical_line"></div>
+        					<li><a href="#"><span class="nav nav_CU">Contact Us</span></a></li>
+      	  				<li><a href="#"><span class="nav nav_QA">Q and A</span></a></li>
+        					<li><a href="#"><span class="nav nav_cats">Cats</span></a></li>
+        					<li><a href="#"><span class="nav nav_AB">About Us</span></a></li>
+            				<li><a href="#"><span class="nav nav_home">Home</span></a></li>
+        				</ul>
+        			</nav>
+        			</div>
 		</header>
 		</div>
 			<!--home-->
@@ -382,6 +386,50 @@ Open Daily 10AM-7PM</p>
       		<button class="login_submit" type="button" id="btnSignUp">Submit</button>
       	</div>
       </div>
+      <!--cateach1-->
+      <div id="cats_each_main" class="web">
+        <div class="cats_each_main_left">
+          <div class="cats_adoption1">
+            <a class="taipei" href="#"><p>Taipei Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a class="taoyuan" href="#"><p>Taoyuan Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a class="taichung" href="#"><p>Taichung Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a class="tainan" href="#"><p>Tainan Adoption House</p></a>
+          </div>
+          <div class="horizontal_line">
+          </div>
+          <div class="cats_adoption2">
+            <a class="kaoshuing" href="#"><p>Kaohsiung Adoption House</p></a>
+          </div>
+        </div>
+
+        <div class="cats_each_main_right">
+          <div class="cats_each_cat_img">
+            <img src="img/cat1_each.jpg" alt="cat1_each">
+          </div>
+          <div class="cats_each_cat_introduce">
+            <h1>Benny</h1>
+            <p>sex: boy</p>
+            <p>County: Taipei City</p>
+            <p>Age: 3 months</p>
+            <p>Ligation: No</p>
+            <p>Description: cute little orange cat, Benny's big eyes are looking forward to the arrival of the master!</p>
+            <button type="button" name="adopt_button">I Want To Adopt</button>
+          </div>
+        </div>
+      </div>
+    <!--cateach2-->
     <footer>
         <div class="footer_p">
           <p>&copy; Copyrights 2017 Cat Adoption CSIE NTUT / Design by CSIE</p>
