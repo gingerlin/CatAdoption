@@ -126,7 +126,6 @@ $(document).ready(function(){
       user_profile(user);
       userProfile(user);
       console.log(user);
-      location.href="status.html";
       if(user.emailVerified){
       	$('.btn').removeClass("active");
   	  	$('.btnProfile').addClass("active");
