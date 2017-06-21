@@ -65,7 +65,13 @@ box-sizing:border-box;}
 .I_contextp{
 	font-size:20px; 
 	display:inline-block;
-} 
+}
+
+.imgsize{
+	width:90%;
+	height:auto;
+}
+
 .I_morebutton{
 	width:20%; 
 	height:auto;
