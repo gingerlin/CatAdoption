@@ -41,11 +41,7 @@ $(document).ready(function(){
   		$('.web').hide();
   		$("#SignIn").show();
   	});
-  	$('.btnSignIn').click(function(){
-  		$('.nav').removeClass("active");
-  		$('.web').hide();
-  		$("#profile").show();
-  	});
+
   
   });
   $(document).ready(function() {
