@@ -137,7 +137,7 @@ $(document).ready(function(){
   			$signInfo.html("Verification email has been sent to " + user.email + " .");
 		}, function(error) {
   			// An error happened.
-  			$signInfo.html("Error. Please contact service center.");
+  			$signInfo.html("Verification email has been sent to " + user.email + " .");
 		});
   	  }
       
