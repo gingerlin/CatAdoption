@@ -91,8 +91,7 @@ $(document).ready(function(){
     	promise.catch(function(e){
       		console.log(e.message);
       		$signInfo.html(e.message);
-      		$('.web').hide();
-  			$("#profile").show();
+
     	});
     	promise.then(function(){
       		console.log('SignIn User');
