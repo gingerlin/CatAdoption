@@ -77,6 +77,34 @@ header span.menu{
 		color : #A48875;
 		padding : 5% 5%;
 	}
+	.I_segment{
+		height:400px;
+	}
+	.imgpos{
+	padding:20% 5%; 
+	width:100%;
+box-sizing:border-box;}
+	.I_mainleft{
+	width:60%; 
+	height:400px; 
+	background:transparent; 
+	float:left;
+	text-align:center;
+}
+	.I_mainright{
+		height:100%;
+	}
+	.I_contexttitle{
+	font-size:28px;
+} 
+.I_contextp{
+	font-size:18px; 
+	
+} 
+.I_morebutton{
+	width:20%; 
+	height:auto;
+}
 }
 
 @media screen and (max-width: 320px) {
